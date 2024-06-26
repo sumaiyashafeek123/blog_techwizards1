@@ -1,0 +1,102 @@
+.about {
+  padding: 100px 15px;
+  background-color: #ffffff;
+}
+
+.sup-img img {
+  margin-left: 43%;
+  flex: 0 0 30%;
+  max-width: 15%;
+  display: flexbox;
+}
+
+.img {
+  flex: 0 0 350%;
+  max-width: 350%;
+  margin-left: 20%;
+}
+
+.img img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+}
+
+.text {
+  flex: 0 0 80%;
+  max-width: 50%;
+  padding-left: 0px;
+}
+
+.text h4 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0 0 10px;
+  color: #000;
+  margin-bottom: 3%;
+}
+
+.text1 h6 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+
+.text h6 span {
+  color: #5f88e0;
+  position: relative;
+}
+
+.text h6 span::before {
+  content: "";
+  left: 0;
+  right: 90%;
+  position: absolute;
+  height: 2px;
+  bottom: 0px;
+  transition: all 0.5s ease;
+}
+
+.sup-name {
+  margin-left: 42%;
+  color: #5f88e0;
+}
+
+.text h6 span:hover::before {
+  content: "";
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 2px;
+  background-color: #5f88e0;
+  bottom: 0px;
+}
+
+.text p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #838383;
+}
+
+.text1 h4 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #000;
+}
+
+.skills {
+  padding: 20px 0px;
+}
+
+.skills h6 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 25px;
+  color: #000;
+}
+
+.grp-photo {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
